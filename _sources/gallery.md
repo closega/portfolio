@@ -4,22 +4,21 @@
 
 ````{div} full-width
 ```{panels}
-Integrated sensor-actuator-controller unit
+Project 1
 ^^^
-<img src="https://dummyimage.com/300x200/000/fff.png&text=Config+A">
+<img src="https://dummyimage.com/300x200/000/fff.png&text=Project+1">
 
 +++
 
-Use **incremental** encoder [AMS5306](https://ams.com/as5306) (linear position sensor with 2.4mm of pole pair length).
+Footnote ...
 ---
 
-Dual encoder control loop
+Project 2
 ^^^
-<img src="https://dummyimage.com/300x200/000/fff.png&text=Config+A">
+<img src="https://dummyimage.com/300x200/000/fff.png&text=Project+2">
 
 +++
-
-Dual encoder control loop with a magnetic encoder on the motor shaft and a more accurate optical encoder on the output shaft. **To be confirmed**.
+Footnote ...
 ---
 
 ```

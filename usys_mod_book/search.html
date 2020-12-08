@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About the author</title>
+    <title>Search</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -37,6 +37,7 @@
     
   <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
 
+    
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -47,6 +48,8 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -54,12 +57,15 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script src="_static/searchtools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Lean Microsystems Engineering" href="index.html" />
+    <link rel="search" title="Search" href="#" />
+  <script src="searchindex.js" defer></script>
+  
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
+
 
 
 
@@ -75,28 +81,22 @@
         <div class="navbar-brand-box">
 <a class="navbar-brand text-wrap" href="index.html">
   
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
   
 </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="#" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="index.html">
-   Lean Microsystems Engineering
+  <a class="reference internal" href="example_readout_chain.html">
+   Example: readout chain
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   About the author
-  </a>
- </li>
-</ul>
-
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -127,23 +127,6 @@
         </button>
         
         
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/author.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
         <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -155,7 +138,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/closega/system_modeling_book_pub/issues/new?title=Issue%20on%20page%20%2Fauthor.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/closega/system_modeling_book_pub/issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -176,20 +159,6 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#profile-on-social-networks">
-   Profile on social networks
-  </a>
- </li>
-</ul>
-
-        </nav>
-        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -197,36 +166,27 @@
         
               <div>
                 
-  <div class="section" id="about-the-author">
-<h1>About the author<a class="headerlink" href="#about-the-author" title="Permalink to this headline">¶</a></h1>
-<a class="reference internal image-reference" href="_images/gael_2020.jpg"><img alt="_images/gael_2020.jpg" src="_images/gael_2020.jpg" style="width: 300px;" /></a>
-<p>Gael F. Close (M’03-SM’18) received the B.Sc. (Eng.) degree in electrical engineering from the University of Liège, Liège, Belgium, in 2003 and the M.S. and Ph.D. degrees in electrical engineering from Stanford University, Stanford, CA, in 2004 and 2008, respectively. From 2008 to 2011, he was with IBM Research—Zurich, Switzerland, developing phase-change memory chips. Since 2011, he has been with Melexis, Bevaix, Switzerland. As a Senior System Engineer, he lead the technical development of the magnetic sensor product line. He has published about 30 peer-reviewed publications in international journals and conferences, covering nano-electronic devices, circuit/system design, and sensor product development. He holds 4 patents, and is a IASCC Six Sigma Black Belt (2017).</p>
-<div class="section" id="profile-on-social-networks">
-<h2>Profile on social networks<a class="headerlink" href="#profile-on-social-networks" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://www.researchgate.net/profile/Gael_Close">Research Gate</a> | <a class="reference external" href="https://scholar.google.ch/citations?user=xebSVGIAAAAJ&amp;hl=en">Google scholar</a> | <a href="https://orcid.org/0000-0002-5140-7789"><img alt="ORCID logo" src="_static/orcid_16x16.png" style="height:16px; width:16px"> https://orcid.org/0000-0002-5140-7789 </a></p>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script><div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="gael-close-4345a926"><a class="LI-simple-link" href='https://ch.linkedin.com/in/gael-close-4345a926?trk=profile-badge'>Gael Close</a></div>
-</div>
-</div>
-
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./."
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
+  <h1 id="search-documentation">Search</h1>
+  <div id="fallback" class="admonition warning">
+  <script>$('#fallback').hide();</script>
+  <p>
+    Please activate JavaScript to enable the search
+    functionality.
+  </p>
+  </div>
+  <p>
+    Searching for multiple words only shows matches that contain
+    all words.
+  </p>
+  <form action="" method="get">
+    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
+    <input type="submit" value="search" />
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form>
+  
+  <div id="search-results">
+  
+  </div>
 
               </div>
               
@@ -236,7 +196,6 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Lean Microsystems Engineering</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

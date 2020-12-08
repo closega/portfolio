@@ -1,0 +1,9 @@
+/* FONTS */
+/* body in roman*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+  font-family: 'Noto Serif', Georgia, serif;
+  font-size: 18px;
+}
+
