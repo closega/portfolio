@@ -1,7 +1,7 @@
 colorednoise==1.*,>=1.1.1
 holoviews==1.*,>=1.14.0
 hvplot==0.*,>=0.7.0
-ipykernel==5.*,>=5.4.2
+ipykernel==5.*,>=5.3.4
 jupyter==1.*,>=1.0.0
 jupytext==1.*,>=1.7.1
 magpylib==2.*,>=2.3.0.b0
