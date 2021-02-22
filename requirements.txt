@@ -2,7 +2,7 @@ colorednoise==1.*,>=1.1.1
 hvplot==0.*,>=0.7.0
 ipykernel==5.*,>=5.3.4
 jupyter==1.*,>=1.0.0
-jupytext==1.*,>=1.7.1
+jupytext==1.*,>=1.10.2
 magpylib==2.*,>=2.3.0.b0
 pandas==1.*,>=1.1.5
 python-box==5.*,>=5.2.0
