@@ -15,7 +15,6 @@ kernelspec:
 # Functional modeling and quantitative system analysis in python
 
 This notebook is an appendix to the following article:
-
 * G. Close, “Functional modeling and quantitative system analysis in python,” Towards Data Science, 31-Jan-2021. Available: https://towardsdatascience.com/functional-modeling-and-quantitative-system-analysis-in-python-22b90bf0b9b5. [Accessed: 31-Jan-2021]
 
 The illustrative functional block diagram analyzed in the article is shown below.
