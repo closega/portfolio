@@ -1,4 +1,22 @@
+# hidden and backup files
+.*
+*~*
+!.gitignore 
+
 # generated directories
 _run/
 _build/
 _bitmaps/
+
+
+# generated directories
+_run/
+_build/
+_bitmaps/
+
+# compiled and binary python
+__pycache__/
+*.pyc
+
+# Ignore md file for notebook in portofolio
+ipynb/*.md

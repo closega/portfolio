@@ -3,7 +3,6 @@ holoviews==1.*,>=1.14.0
 hvplot==0.*,>=0.7.0
 ipykernel==5.*,>=5.3.4
 jupyter==1.*,>=1.0.0
-jupytext==1.*,>=1.7.1
 magpylib==2.*,>=2.3.0.b0
 mergedeep==1.*,>=1.3.0
 pandas==1.*,>=1.1.5
