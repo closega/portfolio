@@ -18,7 +18,7 @@ This notebook is an appendix to the following article:
 
 * G. Close, “Functional modeling and quantitative system analysis in python,” Towards Data Science, 31-Jan-2021. Available: https://towardsdatascience.com/functional-modeling-and-quantitative-system-analysis-in-python-22b90bf0b9b5. [Accessed: 31-Jan-2021]
 
-The illusrtative functional block diagram analyzed in teh article is shown below.
+The illustrative functional block diagram analyzed in the article is shown below.
 
 ```{code-cell} ipython3
 from IPython.display import Image
