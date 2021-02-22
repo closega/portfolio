@@ -18,11 +18,11 @@ This notebook is an appendix to the following article:
 
 * G. Close, “Functional modeling and quantitative system analysis in python,” Towards Data Science, 31-Jan-2021. Available: https://towardsdatascience.com/functional-modeling-and-quantitative-system-analysis-in-python-22b90bf0b9b5. [Accessed: 31-Jan-2021]
 
-The illustrative functional block diagram analyzed in the article is shown below.
+The illusrtative functional block diagram analyzed in teh article is shown below.
 
 ```{code-cell} ipython3
 from IPython.display import Image
-Image("functional_bd_example.png", width=700)
+Image("coding_pattern.png", width=700)
 ```
 
 ## Code listing
@@ -139,8 +139,7 @@ summary=pd.pivot_table(df, index='A', values=['theta_err'], aggfunc=lambda x: np
 # Dashboard
 #----------------------
 hv.extension('bokeh')
-panel=pn.Row(pn.Column('### Angle error curve',  g1),
+pn.Row(pn.Column('### Angle error curve',  g1),
        pn.Column('### Root mean square error',  
        pn.widgets.DataFrame(summary.applymap("{0:.2f}°,rms".format), width=200)))
-panel.embed()
 ```

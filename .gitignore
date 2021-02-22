@@ -1,18 +1,4 @@
-# hidden and backup files
-.*
-*~*
-!.gitignore 
-!.bumpversion.cfg
-
 # generated directories
 _run/
 _build/
 _bitmaps/
-
-# compiled and binary python
-__pycache__/
-*.pyc
-
-# Ignore binary notebook by default 
-# git add -f <file> to force addition if needed
-*.ipynb 
